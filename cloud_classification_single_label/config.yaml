@@ -1,0 +1,35 @@
+train_path: '../cloud_single_label_dataset/t2/train/'
+valid_path: '../cloud_single_label_dataset/t2/valid/'
+test_path: '../cloud_single_label_dataset/test/'
+train_checkpoint_file: './try/try_2/train_checkpoint_2.csv'
+valid_checkpoint_file: './try/try_2/valid_checkpoint_2.csv'
+#test_ans_file: './try/try_1/test_ans_1_190.csv'
+#test_ans_file: './try/try_2/test_ans_2_25.csv'
+#test_ans_file: './try/try_2/test_ans_2_190.csv'
+#test_ans_file: './try/try_2/test_ans_2_2_30.csv'
+#test_ans_file: './try/try_2/test_ans_2_25_001.csv'
+test_ans_file: './try/try_2/test_ans_2_2_30_5.csv'
+#test_ans_file: './try/try_3/test_ans_3_25.csv'
+model_path: './model/model_2_2/'
+#net_path: './model/model_1/resnet50_epoch_190.pth'
+#net_path: './model/model_2/resnet50_epoch_25.pth'
+#net_path: './model/model_2/resnet50_epoch_190.pth'
+net_path: './model/model_2_2/resnet50_epoch_30.pth'
+#net_path: './model/model_3/resnet50_epoch_25.pth'
+save_freq : 5
+model_type: 'resnet50' #
+batch_size : 64 #
+num_workers : 4 #
+num_epochs: 200
+lr: 0.01  #
+momentum: 0.9 #
+weight_decay: 0.0001  #
+step_size: 20 #
+gamma: 0.1 #
+num_classes : 29 #
+image_size: 224 #
+mode: 'train' #
+threashold: 0.5 #0.0001
+
+ 
+   
